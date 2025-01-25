@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+      "name": "Davlatov Ibrohim",
+      "email": "davlatov@gmail.com",
+      "city": "Dushanbe",
+      "phone": "103006300",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "avatar": "https://randomuser.me/api/portraits/men/14.jpg",
+      "name": "Ahmadullayev Sultan",
+      "email": "ahmadullayev@gmail.com",
+      "city": "Kulob",
+      "status": false,
+      "phone": "103006301"
+    },
+    {
+      "id": "3",
+      "avatar": "https://randomuser.me/api/portraits/men/43.jpg",
+      "name": "Ashiyev Sabir",
+      "email": "davlatov@gmail.com",
+      "city": "Vahdat",
+      "status": true,
+      "phone": "103006302"
+    },
+    {
+      "id": "4",
+      "avatar": "https://randomuser.me/api/portraits/men/11.jpg",
+      "name": "Mammadov Mammad",
+      "email": "ahmadullayev@gmail.com",
+      "city": "Danqara",
+      "status": false,
+      "phone": "103006303"
+    },
+    {
+      "id": "5",
+      "avatar": "https://randomuser.me/api/portraits/men/15.jpg",
+      "name": "Murodov Abdullayev",
+      "email": "davlatov@gmail.com",
+      "city": "Dushanbe",
+      "status": true,
+      "phone": "103006304"
+    },
+    {
+      "id": "6",
+      "avatar": "https://randomuser.me/api/portraits/men/16.jpg",
+      "name": "Dzhumadil Mammad",
+      "email": "mahmadjonov@gmail.com",
+      "city": "Kulob",
+      "status": false,
+      "phone": "103006305"
+    },
+    {
+      "id": "7",
+      "avatar": "https://randomuser.me/api/portraits/men/17.jpg",
+      "name": "Murodov Sabir",
+      "email": "mahmadjonov@gmail.com",
+      "city": "Vahdat",
+      "status": true,
+      "phone": "103006306"
+    },
+    {
+      "id": "8",
+      "avatar": "https://randomuser.me/api/portraits/men/18.jpg",
+      "name": "Mammadov Abdullayev",
+      "email": "ahmadullayev@gmail.com",
+      "city": "Danqara",
+      "status": false,
+      "phone": "103006307"
+    }
+  ]
+}

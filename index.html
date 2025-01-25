@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <!-- Add -->
+
+    <div class="container">
+        <h1 class="h1_1">User List</h1>
+        <button class="btnAdd">+ NEW</button>
+    </div>
+
+    <div class="form-container">
+        <form class="formSearch">
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit">Search</button>
+        </form>
+        <select class="option">
+            <option value="All">All</option>
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        <select class="option1">
+            <option value="All">All</option>
+            <option value="Dushanbe">Dushanbe</option>
+            <option value="Kulob">Kulob</option>
+            <option value="Danqara">Danqara</option>
+            <option value="Vahdat">Vahdat</option>
+        </select>
+    </div>
+
+
+
+    <dialog class="dialogAdd">
+        <form class="formAdd">
+            <input type="text" placeholder="Avatar" name="avatar">
+            <input type="text" placeholder="Name" name="name">
+            <input type="text" placeholder="Email" name="email">
+            <input type="text" placeholder="Age" name="age">
+            <input type="text" placeholder="Phone" name="phone">
+            <button type="button" class="btnCloseAdd">Close</button>
+            <button type="submit">Save</button>
+        </form>
+    </dialog>
+
+    <!-- Edit -->
+    <dialog class="dialogEdit">
+        <form class="formEdit">
+            <input type="hidden" name="id">
+            <input type="text" placeholder="Avatar" name="avatar">
+            <input type="text" placeholder="Name" name="name">
+            <input type="text" placeholder="Email" name="email">
+            <input type="text" placeholder="Age" name="age">
+            <input type="text" placeholder="Phone" name="phone">
+            <button type="button" class="btnCloseEdit">Close</button>
+            <button type="submit">Save</button>
+        </form>
+    </dialog>
+
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <img src="./imges/Vector (5).png" alt="">Name
+                </th>
+                <th>
+                    <img src="./imges/Lock.png" alt=""> Age
+                </th>
+                <th>
+                    <img src="./imges/Timer.png" alt="">Status
+                </th>
+                <th>
+                    <img src="./imges/tag.png" alt="">Phone
+                </th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+    </table>
+
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
