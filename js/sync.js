@@ -118,8 +118,11 @@ function getData(data) {
     btnInfo.className = "btnInfo";
     btnInfo.innerHTML = "Info";
     btnInfo.onclick = () => {};
+    let chekbox = document.createElement("input");
+    chekbox.type = "checkbox";
+    chekbox.checked = element.status;
 
-    action.append(btnDelete, btnEdit, btnInfo);
+    action.append(btnDelete, btnEdit, btnInfo, chekbox);
     div1.appendChild(avatar);
     div1.appendChild(div2);
     div2.appendChild(name);
